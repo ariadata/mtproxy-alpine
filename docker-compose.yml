@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mtproxy:
+    image: ariadata/mtproxy-alpine
+    container_name: ${COMPOSE_PROJECT_NAME}_mtproxy
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    volumes:
+      - ./configs:/data
+    ports:
+#      - '2398:2398' # stats port
+      - '${DC_EXTERNAL_PORT:-443}:443' # MTProxy Port
