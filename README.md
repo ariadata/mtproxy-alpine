@@ -1,6 +1,6 @@
 # MTProto Proxy (Alpine) + TLS Domain Support
 
-[![Build Status](https://files.ariadata.co/file/ariadata_logo.png)](https://ariadata.co)
+[![Build Status](https://raw.githubusercontent.com/ariadata/ariadata-files/main/public-assets/images/ariadata_logo.png)](https://ariadata.co)
 
 ![](https://img.shields.io/github/stars/ariadata/mtproxy-alpine.svg)
 ![](https://img.shields.io/github/watchers/ariadata/mtproxy-alpine.svg)
